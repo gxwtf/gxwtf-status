@@ -108,25 +108,25 @@ function templatizeString(text, parameters) {
 
 function getStatusText(color) {
   return color == "nodata"
-    ? "No Data Available"
+    ? "无可用数据"
     : color == "success"
-    ? "Fully Operational"
+    ? "正常工作"
     : color == "failure"
-    ? "Major Outage"
+    ? "大型事故"
     : color == "partial"
-    ? "Partial Outage"
+    ? "小型事故"
     : "Unknown";
 }
 
 function getStatusDescriptiveText(color) {
   return color == "nodata"
-    ? "No Data Available: Health check was not performed."
+    ? "当天未进行运行状况检测。"
     : color == "success"
-    ? "No downtime recorded on this day."
+    ? "当天未检测出任何事故。"
     : color == "failure"
-    ? "Major outages recorded on this day."
+    ? "当天检测出了大型事故，站点完全无法工作。"
     : color == "partial"
-    ? "Partial outages recorded on this day."
+    ? "当天检测出了小型事故，站点部分无法工作。"
     : "Unknown";
 }
 
