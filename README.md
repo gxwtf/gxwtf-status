@@ -1,10 +1,11 @@
 [![Health Check](../../actions/workflows/health-check.yml/badge.svg)](../../actions/workflows/health-check.yml)
 
-# 广学五题坊 Status - Now Powered by Statsig Status
+# 广学五题坊 Status - Forked From Statsig Status
 
-## Deployment
+## Deployments
 
 - https://gxwtf.github.io/status/
+- https://gxwtf-status.pages.dev/
 
 ## Setup instructions
 
