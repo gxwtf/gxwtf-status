@@ -181,7 +181,7 @@ function splitRowsByDate(rows) {
   let dateValues = {};
   let sum = 0,
     count = 0;
-  for (var ii = 0; ii < rows.length; ii++) {
+  for (var ii = rows.length - 1; ii >= 0; ii--) {
     const row = rows[ii];
     if (!row || !row.trim()) {
       continue;
